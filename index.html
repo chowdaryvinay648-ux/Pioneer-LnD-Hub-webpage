@@ -3,57 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pioneer LnD Hub - Interactive Learning & Development Platform with live classes, mock interviews, and AI-driven skill assessments.">
+  <meta name="author" content="Krishnamurthy Software Solutions">
   <title>Pioneer LnD Hub</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>    
-  
+<body>
 
-  <!-- Top Bar -->
   <div class="top-bar">
-    <span>📞 +91 7676020107</span>
-    <span>✉ contact@krishnamurthysoftwaresolutions.com</span>
+    <span>📞 <abbr title="Phone">+91 7676020107</abbr></span>
+    <span>✉ <a href="mailto:contact@krishnamurthysoftwaresolutions.com">contact@krishnamurthysoftwaresolutions.com</a></span>
   </div>
 
-
   <header class="navbar">
-    <div class="container">
-      <div class="logo">Pioneer LnD Hub</div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Coding Patterns</a></li>
-          <li><a href="#">System Design</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-      <div class="nav-btns">
-        <button class="btn">Login</button>
-        <button class="btn primary">Create Org</button>
-      </div>
+    <div class="logo">Pioneer LnD Hub</div>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href>Home</a></li>
+        <li><a href="#">Coding Patterns</a></li>
+        <li><a href="#">System Design</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-buttons">
+      <button class="btn">Login</button>
+      <button class="btn create">Create Org</button>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Elevate Learning, Drive Growth</h1>
-      <ul>
-        <li>✔ Live and recorded online classes for flexible learning.</li>
-        <li>✔ Hands-on tasks and assignments.</li>
-        <li>✔ Interactive quizzes to reinforce knowledge.</li>
-        <li>✔ Mock interviews with experts.</li>
-        <li>✔ Detailed feedback reports.</li>
-      </ul>
-      <div class="hero-btns">
-        <button class="btn primary">Start Learning</button>
-        <button class="btn">Request a Demo</button>
-      </div>
-    </div>
-  </section>
+  <main>
 
-  <!-- Features -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Elevate Learning, <mark>Drive Growth</mark></h1>
+        <ul>
+          <li>✔ Live and recorded online classes for flexible learning anytime.</li>
+          <li>✔ Hands-on tasks and assignments for practical outcomes.</li>
+          <li>✔ Interactive quizzes to reinforce knowledge.</li>
+          <li>✔ Mock interviews with industry experts.</li>
+          <li>✔ Detailed feedback reports to track growth.</li>
+        </ul>
+        <div class="hero-btns">
+          <button class="btn">Start Learning</button>
+          <button class="btn outline">Request a Demo</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="welcome">
+      <h2>Welcome to Learning and Development Hub</h2>
+      <p>Our platform offers a <strong>smart, interactive learning environment</strong> with live and recorded classes, hands-on experience, and collaborative tools.</p>
+      <p><small>Start your journey today and see the difference.</small></p>
+      <p>We focus on <mark>practical skills</mark> to help you succeed in your career.</p>
+
+      
+      <p>Last updated: <time datetime="2025-08-20">August 20, 2025</time></p>
+
+
+      <p><em>Join thousands of learners who are achieving their goals.</em></p>
+    </section>
+
+
+
   <section class="features">
     <h2>Welcome to Learning and Development Hub</h2>
     <p>Our platform offers a smart and interactive learning environment with live and recorded classes, feedback, and hands-on experience.</p>
@@ -77,115 +89,129 @@
     </div>
   </section>
 
+   
+    <section class="platform">
+      <h2>See Our Platform In Action</h2>
+      <p>Watch this demo to see how our LMS platform can transform your learning experience.</p>
+      <figure>
+        <video controls>
+          <source src="demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>Demo of our LMS platform</figcaption>
+      </figure>
+    </section>
 
-  <!-- Testimonials -->
-  <section class="testimonials">
-    <h2>What Our Learners Say</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial">
-        <p>"The mock interview feature was a game-changer for me."</p>
-        <h4>- Karunakar Reddy</h4>
-        <small>Software Developer at TechCorp</small>
-      </div>
-      <div class="testimonial">
-        <p>"The ability to access recorded sessions made all the difference."</p>
-        <h4>- Vinod Varma</h4>
-        <small>IT Manager at Global Solutions</small>
-      </div>
-      <div class="testimonial">
-        <p>"Quizzes and hands-on tasks reinforced concepts perfectly."</p>
-        <h4>- Ganesh Reddy</h4>
-        <small>Student at State University</small>
-      </div>
-    </div>
-  </section>
+    <section class="testimonials">
+      <h2>What Our Learners Say</h2>
+      <p>Don't just take our word for it - hear from our satisfied users</p>
+      
+      <article>
+        <blockquote>"The mock interview feature was a <em>game-changer</em>. It helped me identify what I need to improve."</blockquote>
+        <p>- <cite>Karthik Reddy</cite>, Software Developer, TechCorp</p>
+        <time datetime="2024-08-01">Aug 2024</time>
+      </article>
 
-  <!-- Pricing -->
-  <section class="pricing">
-    <h2>Find the Perfect Plan for Your Needs</h2>
-    <div class="pricing-grid">
-      <div class="price-card">
-        <h3>Free</h3>
-        <h4>$0/month</h4>
-        <ul>
-          <li>10 Users</li><li>10 Live Classes</li><li>10 Quizzes</li><li>10 Mock Interviews</li>
-          <li>10 GB Storage</li><li>Feedback Reports</li><li>Recorded Classes</li>
-        </ul>
-        <button class="btn primary">Subscribe</button>
-      </div>
-      <div class="price-card popular">
-        <h3>Basic</h3>
-        <h4>$250/month</h4>
-        <ul>
-          <li>25 Users</li><li>250 Live Classes</li><li>250 Quizzes</li><li>250 Mock Interviews</li>
-          <li>30 GB Storage</li><li>Feedback Reports</li><li>Recorded Classes</li>
-        </ul>
-        <button class="btn primary">Subscribe</button>
-      </div>
-      <div class="price-card">
-        <h3>Enterprise</h3>
-        <h4>Custom</h4>
-        <ul>
-          <li>Unlimited Users</li><li>Unlimited Classes</li><li>Unlimited Quizzes</li>
-          <li>Unlimited Mock Interviews</li><li>Unlimited Storage</li>
-          <li>Feedback Reports</li><li>Recorded Classes</li>
-        </ul>
-        <button class="btn">Contact Us</button>
-      </div>
-    </div>
-  </section>
+      <article>
+        <blockquote>"As a professional, the ability to access the certification completed my skill set."</blockquote>
+        <p>- <cite>Vinod Verma</cite>, Global Solutions</p>
+      </article>
 
-  <!-- FAQ -->
-  <section class="faq">
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq-item">
-      <h4>Is there a free trial available?</h4>
-      <p>Yes, we offer a 30-day free trial with access to all core features.</p>
-    </div>
-    <div class="faq-item">
-      <h4>Are the course videos pre-recorded or live?</h4>
-    </div>
-    <div class="faq-item">
-      <h4>What are skill and task assessments?</h4>
-    </div>
-    <div class="faq-item">
-      <h4>Will I receive feedback after mock interviews?</h4>
-    </div>
-  </section>
+      <article>
+        <blockquote>"The interactive quizzes and hands-on tasks improved my test scores dramatically."</blockquote>
+        <p>- <cite>Gaurav Sinha</cite>, Student at Vision University</p>
+        <p>Source: <abbr title="Learning Management System">LMS</abbr> Feedback Report</p>
+      </article>
+    </section>
 
-    <!-- Footer -->
+    <section id="courses" class="plans">
+      <h2>Flexible Plans</h2>
+      <p>Find the Perfect Plan for Your Needs</p>
+      <div class="plans-grid">
+        <article class="plan">
+          <h3>Free</h3>
+          <p>$0.00/month</p>
+          <ul>
+            <li><input type="checkbox" id="free-users" name="free-plan" checked disabled> <label for="free-users">10 Users</label></li>
+            <li><input type="checkbox" id="free-classes" name="free-plan" checked disabled> <label for="free-classes">10 Classes</label></li>
+            <li><input type="checkbox" id="free-mock" name="free-plan" checked disabled> <label for="free-mock">10 Mock Interviews</label></li>
+            <li><input type="checkbox" id="free-feedback" name="free-plan" checked disabled> <label for="free-feedback">10 Feedback Reports</label></li>
+            <li><input type="checkbox" id="free-recorded" name="free-plan" checked disabled> <label for="free-recorded">Recorded Classes</label></li>
+          </ul>
+          <button class="btn">Subscribe</button>
+        </article>
+
+        <article class="plan">
+          <h3>Basic</h3>
+          <p>$250.00/month</p>
+          <ul>
+            <li><input type="checkbox" id="basic-users" name="basic-plan" checked disabled> <label for="basic-users">25 Users</label></li>
+            <li><input type="checkbox" id="basic-classes" name="basic-plan" checked disabled> <label for="basic-classes">25 Classes</label></li>
+            <li><input type="checkbox" id="basic-mock" name="basic-plan" checked disabled> <label for="basic-mock">25 Mock Interviews</label></li>
+            <li><input type="checkbox" id="basic-feedback" name="basic-plan" checked disabled> <label for="basic-feedback">25 Feedback Reports</label></li>
+            <li><input type="checkbox" id="basic-recorded" name="basic-plan" checked disabled> <label for="basic-recorded">Recorded Classes</label></li>
+          </ul>
+          <button class="btn">Subscribe</button>
+        </article>
+
+        <article class="plan">
+          <h3>Enterprise</h3>
+          <p>Custom</p>
+          <ul>
+            <li><input type="checkbox" id="ent-users" name="enterprise-plan" checked disabled> <label for="ent-users">Unlimited Users</label></li>
+            <li><input type="checkbox" id="ent-classes" name="enterprise-plan" checked disabled> <label for="ent-classes">Unlimited Classes</label></li>
+            <li><input type="checkbox" id="ent-mock" name="enterprise-plan" checked disabled> <label for="ent-mock">Unlimited Mock Interviews</label></li>
+            <li><input type="checkbox" id="ent-feedback" name="enterprise-plan" checked disabled> <label for="ent-feedback">Unlimited Feedback Reports</label></li>
+            <li><input type="checkbox" id="ent-recorded" name="enterprise-plan" checked disabled> <label for="ent-recorded">Recorded Classes</label></li>
+          </ul>
+          <button class="btn">Contact Us</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <details>
+        <summary aria-expanded="false">What is the course plan recorded or live?</summary>
+        <p>We offer both live and recorded sessions depending on the plan.</p>
+      </details>
+      <details>
+        <summary aria-expanded="false">Will I receive feedback after mock interviews?</summary>
+        <p>Yes, you will get detailed feedback reports from industry experts.</p>
+      </details>
+      <details>
+        <summary aria-expanded="false">Are the assessments and reports shareable?</summary>
+        <p>Yes, you can share assessment results and reports with peers or employers.</p>
+      </details>
+      <details>
+        <summary aria-expanded="false">Are there any hidden charges in the subscription?</summary>
+        <p>No, there are no hidden charges. Everything is clearly mentioned in the plan.</p>
+      </details>
+    </section>
+
+  </main>
+
   <footer>
     <div class="footer-grid">
-      <!-- Quick Links -->
-      <div class="footer-col">
-        <h3>Quick Link</h3>
-        <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & Condition</a></li>
-        </ul>
+      <div>
+        <h4>Quick Link</h4>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms & Conditions</a></p>
       </div>
-
-      <!-- Contact -->
-      <div class="footer-col">
-        <h3>Contact</h3>
-        <p>3rd Floor, No.1, 19th Main Rd, Opposite Sri Devi Karumariyamma Temple,  
-        BTM 1st Stage, Bengaluru, Karnataka 560029</p>
+      <div>
+        <h4>Contact</h4>
+        <p>3rd Floor, BTM 1st Stage, Bengaluru</p>
         <p>📞 +91 7676020107</p>
         <p>✉ contact@krishnamurthysoftwaresolutions.com</p>
       </div>
-
-      <!-- Newsletter -->
-      <div class="footer-col">
-        <h3>Newsletter</h3>
-        <p>Subscribe to our newsletter to receive updates and exclusive offers.</p>
-        <form>
-          <input type="email" placeholder="Enter your email" required>
-          <button type="submit" class="btn primary">Subscribe</button>
-        </form>
+      <div>
+        <h4>Newsletter</h4>
+        <label for="newsletter" class="sr-only">Email</label>
+        <input type="email" id="newsletter" placeholder="Enter your email">
+        <button class="btn">Subscribe</button>
       </div>
     </div>
-
-    <p class="copyright">© Krishnamurthy Software Solutions Pvt. Ltd, All Rights Reserved.</p>
+    <p class="copy">© Krishnamurthy Software Solutions Pvt. Ltd, All Rights Reserved.</p>
   </footer>
 
 </body>
